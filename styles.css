@@ -1,0 +1,137 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0D7 !important;
+}
+
+.name{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name-2{
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3D3D3D;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1001;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #FFA69E;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.scroll-to-top {
+    position: fixed;      
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #213555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #FFA69E;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    background-size: cover; /* Ensures the image covers the card completely */
+    background-position: center; /* Centers the image within the card */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 300px; /* Set a fixed height for the cards */
+}
+
+a:hover .card{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+#contact {
+    background-color: #F0F0D7;
+    padding: 40px 20px;
+    border-top: 1px solid #dbe1eb;
+}
+
+.contact-heading {
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 400;
+    color: rgb(104, 74, 74);
+}
+
+.nav-item a {
+    color: #213555;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #FFA69E;
+    transform: scale(1.15);
+}
+
+.contact-footer {
+    font-family: "DM Serif Text", serif;
+    font-size: 16px;
+    color: #213555;
+}
+
+.blinking-cursor {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+    font-weight: bold;
+}
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
